@@ -11,21 +11,19 @@
     <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Laravel Installation
+## Purpose
 
-The purpose on this repository is to save my laravel learning curve at a point for my reuse in future and other can also get benefits from it.
-I am window user and setup the laravel app using PHP and composer by global package. I had already setup xampp. So I installed in inside the htdocs folder.
+This repository serves as a record of my Laravel learning journey, providing a reference for my future use and offering resources that others may find beneficial.
 
-### Installation Pre-requisites.
+### Setup
 
-- Alread installed PHP and MySQl using Xampp
-- Already installed composer
+I have already installed PHP and MySQL using XAMPP and Composer globally on my Windows system.
 
-### Installation Steps.
+### Installation Steps
 
-- Created a folder named 'laravel' inside my xampp htdocs folder. Here is the dir path "D:\XAMPP8\htdocs\laravel"
-- Open the command prompt within the laravel fodler.
-- Run the following commands in sequence.
+- Create a folder named laravel inside the XAMPP htdocs directory. The directory path is D:\XAMPP8\htdocs\laravel.
+- Open the command prompt within the laravel folder.
+- Run the following commands in sequence:
 
 ```
 composer global require laravel/installer
@@ -35,15 +33,19 @@ php artisan serve
 ```
 
 ### Installation Steps explanation.
-- Install laravel installer package globally.
-- Create new laravel app. In my case, the app name is laralearn.
-    - Durin the command prompt, I used the following options.
-    - Would you like to install a starter kit?                                            --> none
-    - Which testing framework do you prefer?                                              --> PHPUnit
-    - Would you like to initialize a Git repository?                                      --> yes
-    - Which database will your application use?                                           --> mysql
-    - Default database updated. Would you like to run the default database migrations?    --> yes
-- Move to the newly created folder in which our laravel app code hosted.
-- Run the server to serve the laravel app.
+- **Install Laravel Installer Package Globally**
+    - This command installs the Laravel installer globally on your system.
+- **Create a New Laravel Application:**
+    - Replace APP-NAME with your desired application name (e.g., laralearn).
+    - During the setup, I used the following options:
+        - Would you like to install a starter kit?                                            --> none
+        - Which testing framework do you prefer?                                              --> PHPUnit
+        - Would you like to initialize a Git repository?                                      --> yes
+        - Which database will your application use?                                           --> mysql
+        - Default database updated. Would you like to run the default database migrations?    --> yes
+- **Move to the Newly Created Folder:**
+    - Navigate to the folder where your Laravel application code is hosted.
+- **Run the Server**
+    - This command runs the development server to serve the Laravel application.
 
 
