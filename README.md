@@ -48,4 +48,14 @@ php artisan serve
 - **Run the Server**
     - This command runs the development server to serve the Laravel application.
 
+## Visual Studio Code Extensions Used
 
+- Laravel Blade Snippet = To autocomplete the snippets
+- Laravel Blade Spacer - TO add the space in curly brackets {{  }}
+
+### 
+
+Blade provides two layout method to reusing code to build  layouts
+
+- Template Inheritance - Used @section('content') to define a content inside the file and @yield('content') inside the base file
+- Blade Components
