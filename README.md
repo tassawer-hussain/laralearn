@@ -71,3 +71,8 @@ Blade provides two layout method to reusing code to build  layouts
 
 - Template Inheritance - Used @section('content') to define a content inside the file and @yield('content') inside the base file
 - Blade Components
+
+### Important Points
+
+- .env file contains the configuration of the files. These values can be access by the classes inside the config directory.
+- **config()** helper method is used to grab the values from .env file like config('app.name'). Here **app** is the class name of config/app.php file and **name** is the key of this value **'name' => env('APP_NAME', 'Laravel')** 
