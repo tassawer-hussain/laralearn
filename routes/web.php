@@ -11,12 +11,22 @@ Route::get('/home', function () {
     return view('home', ['name' => 'Tassawer']);
 });
 
+// Views using Template inheritance
 Route::get('/ti-home', function () {
     return view('ti-home', ['name' => 'Tassawer']);
 });
 
 Route::get('/ti-about', function () {
     return view('ti-about', ['name' => 'Tassawer']);
+});
+
+// Views using Blade component
+Route::get('/bc-home', function () {
+    return view('bc-home', ['name' => 'Tassawer']);
+});
+
+Route::get('/bc-about', function () {
+    return view('bc-about', ['name' => 'Tassawer']);
 });
 
 // Now we can access the home page using http://127.0.0.1:8000/home
