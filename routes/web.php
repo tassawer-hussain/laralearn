@@ -1,11 +1,15 @@
 <?php
 
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 // Views stored inside the resources/views/ folder
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Call the welcome view using the WelComerController method index. 
+Route::get('/', [WelcomeController::class, 'index']);
 
 Route::get('/home', function () {
     return view('home', ['name' => 'Tassawer']);

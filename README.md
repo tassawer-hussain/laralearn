@@ -48,12 +48,24 @@ php artisan serve
 - **Run the Server**
     - This command runs the development server to serve the Laravel application.
 
+## Useful Commnads
+- Create a controller
+    - Return the help menu of the make controller command
+```
+php artisan make:controller --help
+```
+    - Create a controller name WelComer Controller
+```
+php artisan make:controller WelcomeController
+```
+
 ## Visual Studio Code Extensions Used
 
 - Laravel Blade Snippet = To autocomplete the snippets
-- Laravel Blade Spacer - TO add the space in curly brackets {{  }}
+- Laravel Blade Spacer - To add the space in curly brackets {{  }}
+- PHP Intelephense - To auto add the use statements and code completion
 
-### 
+### Templating Types
 
 Blade provides two layout method to reusing code to build  layouts
 
