@@ -55,6 +55,12 @@ php artisan make:controller --help           // Return the help menu of the make
 php artisan make:controller WelcomeController      // Create a controller name WelComeController
 ```
 
+- Create migration
+```
+php artisan make:migration create_students_table     // Create word specify to create a table and table name is students
+php artisan migrate                                  // Run the migration file and create the table in database
+```
+
 ## Visual Studio Code Extensions Used
 
 - Laravel Blade Snippet = To autocomplete the snippets
