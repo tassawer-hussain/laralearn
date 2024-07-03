@@ -61,6 +61,11 @@ php artisan make:migration create_students_table     // Create word specify to c
 php artisan migrate                                  // Run the migration file and create the table in database
 ```
 
+- Create a Model
+```
+php artisan make:model --help           // Return the help menu of the make model command
+php artisan make:contrmodel Student     // Create a model name Student
+```
 ## Visual Studio Code Extensions Used
 
 - Laravel Blade Snippet = To autocomplete the snippets
