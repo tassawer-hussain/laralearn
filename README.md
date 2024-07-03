@@ -50,13 +50,9 @@ php artisan serve
 
 ## Useful Commnads
 - Create a controller
-    - Return the help menu of the make controller command
 ```
-php artisan make:controller --help
-```
-    - Create a controller name WelComer Controller
-```
-php artisan make:controller WelcomeController
+php artisan make:controller --help           // Return the help menu of the make controller command
+php artisan make:controller WelcomeController      // Create a controller name WelComeController
 ```
 
 ## Visual Studio Code Extensions Used
@@ -64,6 +60,10 @@ php artisan make:controller WelcomeController
 - Laravel Blade Snippet = To autocomplete the snippets
 - Laravel Blade Spacer - To add the space in curly brackets {{  }}
 - PHP Intelephense - To auto add the use statements and code completion
+- Laravel goto View - Easily move to any view pressing CTRL + Right Click
+- Laravel goto Controller - Easily move to any controller pressing CTRL + Right Click
+- Laravel Snippets - Autocomplete laravel code
+- PHP Namespace Resolver - Import classes
 
 ### Templating Types
 
